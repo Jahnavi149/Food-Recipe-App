@@ -60,9 +60,6 @@ export default function HomeScreen() {
           <View>
             <Text style={{fontSize: hp(3.8)}} className="font-semibold text-neutral-800">Hello Foodie!</Text>
           </View>
-          <Text style={{fontSize: hp(3.8)}} className="font-semibold text-neutral-600">
-            <Text className="text-green-700">Let's plan the recipe</Text>
-          </Text>
         </View>
 
         {/* search bar */}
@@ -73,7 +70,7 @@ export default function HomeScreen() {
             style={{fontSize: hp(1.7)}}
             className="flex-1 text-base mb-1 pl-3 tracking-wider"
           />
-          <View className="bg-gray-300 rounded-full p-3">
+          <View className="bg-gray-800 rounded-full p-3">
             <MagnifyingGlassIcon size={hp(2.5)} strokeWidth={3} color="gray" />
           </View>
         </View>
