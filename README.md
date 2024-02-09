@@ -6,5 +6,7 @@
 # To run
 npm start
 
-![Items list Image](ui1.png)
-![Recipe Image](ui2.png)
+<p float="left">
+  <img src="ui1.png" width="400" />
+  <img src="ui2.png" width="400" /> 
+</p>
